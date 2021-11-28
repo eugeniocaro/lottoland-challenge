@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link
+		href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+		rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+		crossorigin="anonymous">
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous">
+	</script>
+
+	<script 
+		src="https://code.jquery.com/jquery-3.6.0.js"
+		integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+		crossorigin="anonymous">
+	</script>
+	
+	<script src="index.js"></script>
+
+    <title>Rock, Paper, Scissors game</title>
+</head>
+
+<body>
+
+	<div class="container">
+	    <h1>Rock, Paper, Scissors game</h1><br>   
+	    
+	    <h3>Rounds played: <label id="roundsPlayed">0</label></h3><br>
+	    
+	    <button class="btn btn-primary" id="playButton">Play round</button>
+		<button class="btn btn-danger" id="restartButton">Restart game</button>
+	    <br><br>
+	    
+	    <div class="row">     		
+	            <table class="table table-striped w-auto" id="gameTable">
+	                <thead>
+		                <tr>
+		                    <th>Player one's hand (RandomPlayer)</th>
+		                    <th>Player two's hand (RockPlayer)</th>
+		                    <th>Result</th>
+		                </tr>
+	                </thead>
+	                <tbody>
+	                </tbody>
+	            </table>
+	     </div>
+	</div>
+
+</body>
+</html>
