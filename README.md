@@ -16,7 +16,7 @@ Program to play rounds of Rock, Paper, Scissors game. Rounds are played automati
 
 To run, execute "mvn spring-boot:run" from the CLI.
 
-This will make the application accesible from http://localhost:8080.\
+This will make the application accesible from http://localhost:8080. \
 Clicking on the "Play Round" will play a round for the current game and show the results.\
 Clicking on the "Restart Game" will reset the results for the current game, but they will still be considered for the global statistics.\
 These statistics can be accessed at http://localhost:8080/statistics
