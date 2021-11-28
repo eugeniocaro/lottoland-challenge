@@ -16,12 +16,12 @@ Program to play rounds of Rock, Paper, Scissors game. Rounds are played automati
 
 To run, execute "mvn spring-boot:run" from the CLI.
 
-This will make the application accesible from http://localhost:8080.
-Clicking on the "Play Round" will play a round for the current game and show the results.
-Clicking on the "Restart Game" will reset the results for the current game, but they will still be considered for the global statistics.
+This will make the application accesible from http://localhost:8080.\
+Clicking on the "Play Round" will play a round for the current game and show the results.\
+Clicking on the "Restart Game" will reset the results for the current game, but they will still be considered for the global statistics.\
 These statistics can be accessed at http://localhost:8080/statistics
 
-The REST API can be accessed directly using software such as Postman, SoapUI or similar.
+The REST API can be accessed directly using software such as Postman, SoapUI or similar.\
 API documentation can be checked from Swagger UI at http://localhost:8080/swagger-ui/ where it can also be tested.
 
 
@@ -31,7 +31,7 @@ API documentation can be checked from Swagger UI at http://localhost:8080/swagge
 
 * Ideally service and repository layers should have been used even if data is kept in memory, but since a database was not needed and due to time constraints the creation of these two layers was skipped.
 
-* A @ControllerAdvisor has been implemented to manage exceptions globally in a unified manner.
+* A `@ControllerAdvisor` has been implemented to manage exceptions globally in a unified manner.
 
 
 
